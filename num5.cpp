@@ -7,10 +7,11 @@ int main() {
     string city;
     cin >> city;
     if (size(city) % 2 == 0) {
-        cout << "Чет" << endl;
+        cout << "Четное" << endl;
     }
     else {
         cout << "Нечет" << endl;
     }
     return 0;
+
 }
